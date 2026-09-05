@@ -9,7 +9,14 @@ Education & Background
 ---
 
 Professional Certificates & Badges
- Digital Literacy - IBM SkillsBuild
+
+1. Information Technology Fundamentals - IBM SkillsBuild
+- **Issuer:** IBM SkillsBuild
+- **Issued Date:** June 07, 2026
+- **Credential Status:** Verified Digital Certificate
+- **Verification Link:** [Verify Credly Badge](https://www.credly.com/badges/63cd6efd-65fb-48db-9996-d281c8e30246)
+
+2. Digital Literacy - IBM SkillsBuild
 - **Issuer:** IBM SkillsBuild
 - **Issued Date:** June 01, 2026
 - **Credential Status:** Verified Digital Certificate
@@ -24,6 +31,6 @@ Skills & Technologies
 
 ---
 
- Contact Info
+Contact Info
 - **Name:** Mohamed Hamdy Elsayed Mohamed Ghoneem
 - **Specialization:** IT & Cyber Security Trainee
