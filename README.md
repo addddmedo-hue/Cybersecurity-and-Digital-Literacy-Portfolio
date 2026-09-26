@@ -71,6 +71,31 @@ The architecture connects a wide range of end-user and infrastructure devices[sp
 Repository Structure
 
 ```text
+Cisco Networking Labs: Switches Configuration & VLAN Setup
+This repository documents my practical hands-on experience in Network Engineering and Cisco IOS Configuration using Cisco Packet Tracer.
+It demonstrates core fundamental concepts in network setup, switch configuration, VLAN segmentation, and troubleshooting connection links.
+ Key Technical Topics & Tasks Covered
+1. Basic Switch & Device Configuration
+Changing device hostnames (hostname ELSAYED).
+Securing privileged EXEC mode using encrypted passwords (enable secret).
+Configuring Login Banners (banner motd).
+Saving and reloading device running configurations.
+2. VLAN Configuration & Trunking
+Creating and naming Virtual LANs (e.g., VLAN 10 - HR).
+Assigning end-user interfaces to specific access VLANs (switchport mode access).
+Setting up Trunk Links between switches to carry multi-VLAN traffic across the network topology (switchport mode trunk).
+3. Network Topology & Addressing
+Designing multi-device LAN topologies connecting PCs, Routers, and Switches.
+Assigning IPv4 addresses across local subnets (e.g., 192.168.100.x).
+Verifying end-to-end connectivity via Ping tests and Packet Tracer simulation modes.
+4. CLI Troubleshooting & Debugging
+Resolving common CLI syntax errors (such as Invalid input detected markers).
+Inspecting hardware boot sequences, iOS software versions, and flash memory status.
+Verifying active configurations using commands like show running-config.
+ Tech Stack & Tools Used
+Simulation Tool: Cisco Packet Tracer
+Hardware Simulated: Cisco Catalyst Switches (2960 Series), Routers, PC End-Devices.
+Protocols & Concepts: TCP/IP, VLANs, IEEE 802.1Q Trunking, Cisco IOS CLI.
 ├── اليوم الاول.pkt        # Main Cisco Packet Tracer project file
 ├── 1000232087.jpg        # Topology screenshot
 └── README.md             # Documentation file
