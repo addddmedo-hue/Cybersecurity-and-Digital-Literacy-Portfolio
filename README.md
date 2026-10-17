@@ -99,3 +99,40 @@ Protocols & Concepts: TCP/IP, VLANs, IEEE 802.1Q Trunking, Cisco IOS CLI.
 ├── اليوم الاول.pkt        # Main Cisco Packet Tracer project file
 ├── 1000232087.jpg        # Topology screenshot
 └── README.md             # Documentation file
+Cisco Packet Tracer - Complex Network Topology & VLAN Configuration Lab
+​Project Overview
+​This project demonstrates a structured enterprise network topology built using Cisco Packet Tracer. It focuses on network segmentation, Inter-VLAN routing, interface configuration, and successful end-to-end connectivity verification across multiple switches and routers.
+​🛠️ Network Architecture & Design
+​1. Topology Components
+​Routers: Cisco 2901 Router (Router0) acting as the core gateway for inter-network communication.
+​Switches: Cisco 2960-24TT Switches (Switch0, Switch1) handling local access layer connectivity and VLAN distribution.
+​End Devices: Multiple client PCs (PC0 through PC8) distributed across different network segments and subnets.
+​2. VLAN & Subnet Configuration Summary
+​Network traffic is segmented using Virtual Local Area Networks (VLANs) to improve security, performance, and broadcast domain management:
+​VLAN 10
+​IP Subnet: 192.168.10.0/24
+​Gateway / Interface IP: 192.168.10.1 / 192.168.10.10
+​Status: Active (no shutdown)
+​VLAN 20 (wh)
+​IP Subnet: 192.168.20.0/24
+​Interface IP: 192.168.20.1
+​Status: Active (no shutdown)
+​ Sample Switch CLI Configuration Commands
+
+Switch> en
+Switch# conf t
+!
+! Configuring VLAN 10 and assigning IP address
+Switch(config)# vlan 10
+Switch(config-vlan)# exit
+Switch(config)# interface vlan 10
+Switch(config-if)# ip address 192.168.10.1 255.255.255.0
+Switch(config-if)# no shutdown
+!
+! Configuring VLAN 20 with custom name
+Switch(config)# vlan 20
+Switch(config-vlan)# name wh
+Switch(config-vlan)# exit
+Switch(config)# interface vlan 20
+Switch(config-if)# ip address 192.168.20.1 255.255.255.0
+Switch(config-if)# no shutdown
